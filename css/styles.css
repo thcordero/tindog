@@ -1,0 +1,184 @@
+body {
+  font-family: Montserrat;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Montserrat;
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+  /* top left&right bottom */
+}
+
+/* Headings Section */
+.big-heading {
+  font-family: Montserrat, sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  text-align: left;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Sections */
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* All the container-fluid has padding: 7% 15%; but for the title section we want a specific value.*/
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: Montserrat;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Features */
+#features {
+  position: relative;
+  /* z-index: 1; */
+}
+
+.features-box {
+  padding: 0 5%;
+}
+
+.feature-title {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: black;
+}
+
+.features-text {
+  font-size: 1rem;
+  color: #8f8f8f;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: red;
+}
+
+/* Testimonial Section */
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 100px;
+}
+
+.price-title {
+  font-style: 1.5rem;
+}
+
+.pricing-col {
+  padding: 2% 3%;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Cta Section*/
+.cta-text {
+  font-family: Montserrat;
+  font-weight: 900;
+  line-height: 1.5;
+  font-size: 3rem;
+}
+
+/* Footer Section*/
+#footer {
+  font-size: 0.8rem;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width:1028px) {
+  .big-heading {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
